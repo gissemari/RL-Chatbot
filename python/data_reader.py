@@ -1,7 +1,9 @@
 # coding=utf-8
 
 from __future__ import print_function
-import cPickle as pickle
+import _pickle as pickle #cPickle
+
+#import cPickle as pickle
 import config
 import random
 

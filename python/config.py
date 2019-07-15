@@ -1,5 +1,5 @@
 # path to training data
-training_data_path = 'data/conversations_lenmax22_formersents2_with_former'
+training_data_path = 'data/ubuntu/conversations_lenmax22_formersents2_with_former'
 
 # path to all_words
 all_words_path = 'data/all_words.txt'
@@ -19,7 +19,7 @@ reversed_model_name = 'model-63'
 
 # data reader shuffle index list
 load_list = False
-index_list_file = 'data/shuffle_index_list'
+index_list_file = 'data/ubuntu/shuffle_index_list'
 cur_train_index = start_batch * batch_size
 
 # word count threshold
